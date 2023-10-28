@@ -24,7 +24,7 @@
     font-size: 16px;
 }
 
-.logo,
+.logo, .list, 
 .list li {
     display: inline-block;
 }
@@ -89,35 +89,83 @@
     text-align: center;
     font-family: butler;
     display: inline-block;
-    border: 1px solid red;
+    position: absolute;
+    bottom: -250PX;
+    left: 10px;
+    z-index: 1;
 }
 
 .writeup>h2 {
     font-size: 32px;
     line-height: 50px;
     display: inline-block;
-    border: 1px solid green;
 }
 
 .writeup>p {display: inline-block;
-    border: 1px solid green;
-    padding: 20px 160px;
+    padding: 10px 200px 30px 200px;
     font-size: 16px;
     font-weight: 400;
     font-family: salt;
+    margin-top: 20px;
 }
 
-.cow {
+/* .cow {
     display: inline-block;
-    border: 1px solid red;
-}
+    margin-left: 1000px;
+    border: 2px solid red;
+    position: relative;
+    bottom: 60px;
+} */
+
 
 .bird {
     display: inline-block;
     padding-top: 50px;
-    border: 1px solid red;
     padding-left: 30px;
 }
-
+.btnfeel{
+    border: 2px solid red;
+/* padding-top: 200px;
+padding-left: 350px; */
+    display: inline-block;
+}
+btnfeel>.order{
+    margin-top: 150px;
+}
 /* main div feel end */
+
+/* Our menu start */
+.menu{
+    background-color: black;
+    color: #ffffff;
+    font-size: 32px;
+    font-family: butler;
+}
+.ourmen{
+    padding-top: 80px;
+    border: 2px solid red;
+    text-align: center;
+}
+.hitea{
+    display: inline-block;
+    border: 2px solid red;
+    vertical-align: top;
+
+}
+.hiteaimg{
+   
+    display: inline-block;
+    margin-left: 100px;
+    border: 2px solid red;
+}
+
+.hiteaimg>img{
+    width: 450px;
+    height: 450px;
+}
+.hiteacon{margin-top: 20px;
+border:2px solid green;
+width: 920px;
+margin: auto;}
+/* OUr menu end */
 /* Main working end */
