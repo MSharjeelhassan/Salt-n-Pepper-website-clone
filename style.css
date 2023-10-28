@@ -1,24 +1,65 @@
+@font-face {
+    font-family: salt;
+    src: url(https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf);
+}
+
+@font-face {
+    font-family: butler;
+    src: url(https://staging.tossdown.site/assets/theme_one/fonts/butlerbold/butlerbold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
+.list,
+.logo {
+    border: 1px solid red;
+}
+
+.list li {
+    display: inline-block;
+    font-family: salt;
+    font-size: 16px;
+}
+
+.logo,
+.list li {
+    display: inline-block;
+}
+
+
+
+.logo>img {
+    width: 140px;
+    height: 58.09px;
+}
+
 /* Utilities Start */
 #arrow {
     color: green;
-    background-color: white;
-    width: 25px;
-    height: 25px;
-    border-radius: 12.5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
 
 }
-.order{
-    width: 150px;
+
+.arrow {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    border: 1px solid red;
+}
+
+.order {
+    width: 156px;
     height: 50px;
-    border-radius:40px ;
-    background-color: green;
+    border-radius: 38px;
+    text-align: center;
+    background-color: #00A450;
+    color: #ffffff;
+    font-family: salt;
 }
 
 
@@ -28,3 +69,55 @@
     background-color: black;
     color: white;
 }
+
+/* Main working start */
+
+.main-img>img {
+    width: 100%;
+    margin: 0;
+}
+
+/* main div feel start */
+.feel {
+    background-color: #0f0f0f;
+    margin: 0;
+
+}
+
+.writeup {
+    color: #ffffff;
+    text-align: center;
+    font-family: butler;
+    display: inline-block;
+    border: 1px solid red;
+}
+
+.writeup>h2 {
+    font-size: 32px;
+    line-height: 50px;
+    display: inline-block;
+    border: 1px solid green;
+}
+
+.writeup>p {display: inline-block;
+    border: 1px solid green;
+    padding: 20px 160px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: salt;
+}
+
+.cow {
+    display: inline-block;
+    border: 1px solid red;
+}
+
+.bird {
+    display: inline-block;
+    padding-top: 50px;
+    border: 1px solid red;
+    padding-left: 30px;
+}
+
+/* main div feel end */
+/* Main working end */
